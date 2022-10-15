@@ -2,6 +2,7 @@
   <PropertyGroup>
     <LangVersion>9.0</LangVersion>
     <Nullable>enable</Nullable>
+    <ImplicitUsings>Enable</ImplicitUsings>
     <ProductName Condition="'$(ProductName)'==''">Chapter$(ChapterNumber)</ProductName>
     <TreatWarningsAsErrors Condition="'$(TreatWarningsAsErrors)'==''">false</TreatWarningsAsErrors>
     <Authors>Mark Michaelis</Authors>
